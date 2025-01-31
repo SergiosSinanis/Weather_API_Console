@@ -23,8 +23,8 @@ Active internet connection
 Install required NuGet packages:
 Newtonsoft.Json
 
-Build the solution
-Get your API key from OpenWeatherMap (https://openweathermap.org/api)
+Build the solution,
+Get your API key from OpenWeatherMap (https://openweathermap.org/api),
 Run the application
 
 ## How to Use:
