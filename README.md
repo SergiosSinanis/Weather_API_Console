@@ -3,69 +3,67 @@ A C# console application that provides real-time weather information using the O
 
 ## Features:
 
-Real-time weather data
-Temperature in Celsius
-Weather conditions
-Location-based search
-Error handling
-User-friendly interface
-Wind speed information
-Humidity data
-"Feels like" temperature
+- Real-time weather data
+- Temperature in Celsius
+- Weather conditions
+- Location-based search
+- Error handling
+- User-friendly interface
+- Wind speed information
+- Humidity data
+- "Feels like" temperature
+- Invalid API key detection
+- Location not found handling
+- Network connection errors
+- API response validation
 
 ## Requirements:
 
-.NET 6.0 or higher
-Visual Studio 2022 or compatible IDE
-OpenWeatherMap API key
-Active internet connection
+- .NET 6.0 or higher
+- Visual Studio 2022 or compatible IDE
+- OpenWeatherMap API key
+- Active internet connection
 
-Install required NuGet packages:
-Newtonsoft.Json
+### Install required NuGet packages:
+- Newtonsoft.Json
 
-Build the solution,
-Get your API key from OpenWeatherMap (https://openweathermap.org/api),
-Run the application
+- Build the solution,
+- Get your API key from OpenWeatherMap (https://openweathermap.org/api),
+- Run the application
 
 ## How to Use:
 
-Start the application
-Enter your OpenWeatherMap API key
-Type a location name (city, country)
-View the weather information
-Choose to check another location or exit
+- Start the application
+- Enter your OpenWeatherMap API key
+- Type a location name (city, country)
+- View the weather information
+- Choose to check another location or exit
 
-Example Output:
-Location: London, UK
-Temperature: 15.2°C
-Feels like: 14.8°C
-Condition: Light rain
-Humidity: 76%
-Wind Speed: 4.1 m/s
-Error Handling:
-
-Invalid API key detection
-Location not found handling
-Network connection errors
-API response validation
-Input validation
+### Example Output:
+- Location: London, UK
+- Temperature: 15.2°C
+- Feels like: 14.8°C
+- Condition: Light rain
+- Humidity: 76%
+- Wind Speed: 4.1 m/s
+- Error Handling:
 
 ## API Usage Notes:
 
-Free API tier limited to 60 calls per minute
-Location names should be clear and specific
-Some locations might need country code (e.g., "London,UK")
-API responses are in metric units
+- Free API tier limited to 60 calls per minute
+- Location names should be clear and specific
+- Some locations might need country code (e.g., "London,UK")
+- API responses are in metric units
 
 ## Contributing:
 
-Fork the repository
-Create a feature branch
-Make your changes
-Submit a pull request
+- Fork the repository
+- Create a feature branch
+- Make your changes
+- Submit a pull request
 
-License:
-Copyright [Year] [Your Name]
+### License:
+Copyright 2025 Sergios Sinanis
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
 You may obtain a copy of the License at
@@ -78,47 +76,48 @@ limitations under the License.
 
 ## Security Notes:
 
-Never commit your API key to the repository
-Use environment variables or secure configuration for API keys
-Be mindful of API rate limits
-Consider implementing API key rotation for production use
+- Never commit your API key to the repository
+- Use environment variables or secure configuration for API keys
+- Be mindful of API rate limits
+- Consider implementing API key rotation for production use
 
 ## Contact:
 sergiosinanis@gmail.com
 
 ## Support:
 For bugs, feature requests, or questions, please open an issue in the GitHub repository.
-Version History:
+
+### Version History:
 1.0.0 - Initial release
 
-Basic weather information
-Location-based search
-Error handling
-User interface
-API integration
+- Basic weather information
+- Location-based search
+- Error handling
+- User interface
+- API integration
 
 ## Future Improvements:
 
-Multiple day forecast
-Weather alerts
-Location saving
-Temperature unit conversion
-Graphical weather display
-Multiple location comparison
-Offline mode with caching
-Detailed weather reports
-Location autocomplete
-Historical weather data
+- Multiple day forecast
+- Weather alerts
+- Location saving
+- Temperature unit conversion
+- Graphical weather display
+- Multiple location comparison
+- Offline mode with caching
+- Detailed weather reports
+- Location autocomplete
+- Historical weather data
 
 ## Dependencies:
 
-Newtonsoft.Json - For parsing JSON API responses
-System.Net.Http - For making API requests
+- Newtonsoft.Json - For parsing JSON API responses
+- System.Net.Http - For making API requests
 
 ## Acknowledgments:
 
-OpenWeatherMap for providing the weather API
-All contributors and users of this application
-Newtonsoft.Json library maintainers
+- OpenWeatherMap for providing the weather API
+- All contributors and users of this application
+- Newtonsoft.Json library maintainers
 
-Note: Remember to keep your API key secure and never share it publicly.
+## Note: Remember to keep your API key secure and never share it publicly.
