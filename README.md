@@ -120,4 +120,4 @@ For bugs, feature requests, or questions, please open an issue in the GitHub rep
 - All contributors and users of this application
 - Newtonsoft.Json library maintainers
 
-## Note: Remember to keep your API key secure and never share it publicly.
+### Note: Remember to keep your API key secure and never share it publicly.
